@@ -32,6 +32,3 @@ This weather station project highlights IoT connectivity, keeping you in the loo
 
 <h4><u>Step:</u></h4>
 I developed this project within the WOKWI simulation environment, establishing a connection to the ThingSpeak platform. The collected data is then transmitted to the platform for further analysis.
-
-<h4>License</h4>
-MIT License | Copyright (c) 2023 Sachindu Malshan
