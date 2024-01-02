@@ -25,6 +25,7 @@ Integrated with your weather station, the DHT22 sensor delivers reliable humidit
 Enhancing your weather station, the Light sensor measures light intensity, helping you gauge brightness levels in your surroundings.<be>
 
 For more information: https://bit.ly/ClimaSense_WeatherMonitoringSystem
+Simulation Link: https://bit.ly/WOKWI_WeatherMonitoringSystem
 
 This weather station project highlights IoT connectivity, keeping you in the loop with live weather updates, no matter your location.⚡
 <hr>
