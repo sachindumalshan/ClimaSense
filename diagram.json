@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "author": "Sachindu Malshan",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-pi-pico-w",
+      "id": "pico",
+      "top": 6.35,
+      "left": -15.65,
+      "attrs": { "cyw43": "1" }
+    },
+    { "type": "wokwi-photoresistor-sensor", "id": "ldr1", "top": -140.8, "left": 68, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -134.1, "left": -168.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "dht1:GND", "pico:GND.8", "limegreen", [ "h201.6", "v57.6" ] ],
+    [ "dht1:SDA", "pico:GP4", "black", [ "v0" ] ],
+    [ "dht1:VCC", "pico:3V3", "red", [ "v9.6", "h249.6", "v67.2" ] ],
+    [ "ldr1:VCC", "pico:3V3", "red", [ "h9.6", "v182.4" ] ],
+    [ "ldr1:GND", "pico:GND.8", "limegreen", [ "h19.2", "v153.2" ] ],
+    [ "ldr1:AO", "pico:GP27", "black", [ "v191.3", "h-182.71" ] ]
+  ],
+  "serialMonitor": { "display": "terminal" },
+  "dependencies": {}
+}
